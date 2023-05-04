@@ -5,7 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            text-align: center;
+        }
+        #regis_form,#login_form{
+            text-align :center; 
+        margin-top: 10%;
+        margin-left: 35%;
+        margin-right: 35%;
+        padding: 20px;
+    }
+    h2{
+        background-color: skyblue;
+        padding: 10px;
+        margin: 0;
+        border-radius: 10px 10px 0 0;
+    }
+    table{
+        width: 100%;
+        height: 300px;
+        padding: 20px;
+        border: 1px solid skyblue;
+        border-radius: 0 0 10px 10px;
+    }
+    input[type=text],input[type=number],input[type=password]{
+        border-radius:50px;
+    }
+    td{
+        font-size:20px;
+    }
+    input[type=submit]{
+        width: 80%;
+        height: 70%;
+        border: none;
+        background-color: skyblue;
+        font-weight: bolder;
+        font-size:15px;
+        border-radius: 50px;
+        padding:10px;
+        cursor: pointer;
+    }
+    .error{
+       color: red;
+    }
+    input[type=submit]:hover{
+        background-color: rgb(76, 150, 179);
+    }
+    </style>
 </head>
 <body>
 <?php
